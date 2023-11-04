@@ -3,7 +3,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons'
 
 import Home from "./home";
 import Perfil from "./perfil";
-import Consulta from "./consulta";
+import Cards from "./cartoes";
 
 const Tab = createBottomTabNavigator();
 
@@ -24,8 +24,8 @@ const tabs = [
   },
   {
     id: 2,
-    name: 'Consulta', 
-    component: Consulta,
+    name: 'Cards', 
+    component: Cards,
     icon: 'calendar'
   },
   {

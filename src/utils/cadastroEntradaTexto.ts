@@ -25,7 +25,7 @@ const secoes = [
         placeholder: "Digite sua senha",
       },
       {
-        id: 4,
+        id: 5,
         label: "Confirme a Senha",
         placeholder: "Confirme sua senha",
       },
