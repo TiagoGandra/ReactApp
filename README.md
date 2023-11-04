@@ -1,2 +1,2 @@
 # ReactApp
-Primeiro aplicativo utilizando React Native e Native Base.
+Aplicativo utilizando React Native e Native Base.
