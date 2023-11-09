@@ -10,9 +10,9 @@ export default function Perfil({navigation}) {
 
         <Titulo color='blue.500'>Tiago Gandra</Titulo>
         <Divider mt={5}/>
-        <Titulo>Endereço: </Titulo>
-        <Titulo>Algum dado: </Titulo>
-        <Titulo>Algum outro dado: </Titulo>
+        <Titulo>Tarefas do dia: </Titulo>
+        <Titulo>A fazer:  </Titulo>
+        <Titulo>Finalizadas:  </Titulo>
         <Botao w='50%' h='10%' onPress={() => navigation.navigate("Login")}>Log Out</Botao>
         <Divider mt={5}/>
 

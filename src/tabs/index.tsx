@@ -16,20 +16,20 @@ const screenOptions = {
 }
 
 const tabs = [
+  // {
+  //   id: 1,
+  //   name: 'Home', 
+  //   component: Home,
+  //   icon: 'home'
+  // },
   {
     id: 1,
-    name: 'Home', 
-    component: Home,
-    icon: 'home'
-  },
-  {
-    id: 2,
     name: 'Cards', 
     component: Cards,
     icon: 'calendar'
   },
   {
-    id: 3,
+    id: 2,
     name: 'Perfil', 
     component: Perfil,
     icon: 'person'

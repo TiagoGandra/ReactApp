@@ -36,7 +36,7 @@ export default function Cards() {
           <Card key={card.id} id={card.id} removeCard={removeCard}/>
         ))}
       </ScrollView>
-      <Button onPress={addCard}>+</Button>
+      <Button  mb={4} ml={335} w='12%' borderRadius='3xl' _text={{color: "white"}} onPress={addCard}>+</Button>
     </VStack>
   );
 }
