@@ -1,24 +1,27 @@
-import { VStack, Text, Button, Link, Box} from "native-base";
+import { VStack, Text, Button, Link, Box, Image} from "native-base";
 import { TouchableOpacity } from 'react-native';
 import { Titulo } from "./components/titulo";
 import { EntradaTexto } from "./components/entradaTexto";
+import logo from './assets/note.png'
 
 export default function Login({ navigation }) {
   return (
     <VStack flex={1} alignItems="center" p={5} justifyContent="center">
-      <Titulo> Faça login em sua conta </Titulo>
-      <EntradaTexto label="Usuário: " placeholder="Usuário"/>
-      <EntradaTexto label="Senha: " placeholder="Senha"/>
+      <Image source={logo} alt="logo-image" />
+      <Titulo fontSize='3xl' color='black'> To-Do List </Titulo>
+      <Titulo w='75%' fontSize='sm'>This productive tool is designed to help you better manage your task project-wise conveniently!</Titulo>
+      {/* <EntradaTexto label="Usuário: " placeholder="Usuário"/>
+      <EntradaTexto label="Senha: " placeholder="Senha"/> */}
       <Button
         w=" 100%"
-        bg="blue.400"
+        bg="#5F33E1"
         mt={20}
-        borderRadius="lg"
+        borderRadius='xl'
         onPress={() => navigation.navigate("Tabs")}
       >
-        Entrar
+        Let's Start!
       </Button>
-      <Link href='https://github.com/TiagoGandra' mt={2}>
+      {/* <Link href='https://github.com/TiagoGandra' mt={2}>
         Esqueceu sua senha?
       </Link>
 
@@ -29,7 +32,7 @@ export default function Login({ navigation }) {
             Faça seu cadastro!
           </Text>
         </TouchableOpacity>
-      </Box>
+      </Box> */}
     </VStack>
   );
 }

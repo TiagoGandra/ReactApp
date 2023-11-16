@@ -5,7 +5,7 @@ import Rotas from "./src/rotas";
 export default function App() {
   return (
     <NativeBaseProvider theme={TEMAS}>
-      <StatusBar backgroundColor={TEMAS.colors.blue[300]} />
+      <StatusBar backgroundColor='#5F33E1'/>
       <Rotas />
     </NativeBaseProvider>
   );
